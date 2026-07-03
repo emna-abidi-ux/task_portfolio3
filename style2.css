@@ -1,0 +1,143 @@
+
+
+header{
+    display:flex;
+    background-color: #069c6d;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+header h1:hover{
+    transition: 1s;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+header a{
+    text-decoration:none;
+    margin:10px;
+    font-size : 50px;
+    color: rgb(8, 8, 8);
+    
+}
+
+
+
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover {
+    background-image: url(./images/pexels-codioful-6985259.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    justify-content: center;
+    
+}
+
+.cover h1, .cover h2{
+    text-align: center;
+    color: rgb(8, 8, 8);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.cover button{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 1s;
+    font-size: 20px;
+    width: 500px;
+    
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: aquamarine;
+    color: black;
+}
+
+.projects {
+    background-color: rgb(242, 248, 246);
+}
+main{
+    background-color: rgb(242, 248, 246);
+}
+
+div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.projects h2{
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+    font-size: 40px;
+    transition: 1s;
+}
+
+
+
+div .project-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    transition:1s;
+   
+}
+
+.project-item:hover{
+    transform: scale(1.1);
+}
+
+.project-item h3, .project-item p{
+    font-weight: large;
+}
+
+.project-item button{
+    font-size: 20px;
+    width: 200px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.project-item button:hover{
+    transform: scale(1.1);
+    background-color: aquamarine;
+    color: black;
+
+}
+
+footer{
+    background-color: #069c6d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    margin-top: 40px;
+}
+
+.social-links a {
+    margin: 10px;
+    font-size: 40px;
+}
+
+
+
