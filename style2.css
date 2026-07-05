@@ -1,4 +1,8 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
 header{
     display:flex;
@@ -17,17 +21,43 @@ header h1:hover{
 header a{
     text-decoration:none;
     margin:10px;
-    font-size : 50px;
+    font-size : 30px;
     color: rgb(8, 8, 8);
     
 }
-
 
 
 section{
     display:flex;
     flex-direction: column;
     align-items: center;
+}
+
+.about{
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+span{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    transition: 1s;
+
+}
+
+label{
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius:10px;
+    background-color: snow;
+    
+}
+span:hover{
+    transform: scale(1.1);
+    color: black;
 }
 
 .cover {
@@ -42,7 +72,6 @@ section{
 .cover h1, .cover h2{
     text-align: center;
     color: rgb(8, 8, 8);
-    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -67,18 +96,13 @@ button:hover{
 .projects {
     background-color: rgb(242, 248, 246);
 }
+
 main{
     background-color: rgb(242, 248, 246);
+    margin-bottom: 500px;
 }
 
-div{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    padding: 20px;
-}
+
 
 .projects h2{
     text-align: center;
@@ -88,11 +112,19 @@ div{
     transition: 1s;
 }
 
+div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
 
 
-div .project-item{
+.project-item {
     display:flex;
     flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(8, 8, 8, 0.89);
     align-items: center;
     justify-content: center;
     border:1px solid black;
@@ -106,6 +138,17 @@ div .project-item{
 .project-item:hover{
     transform: scale(1.1);
 }
+
+.project-item img{
+    background-image: url(./pexels-codioful-6985259.jpg) ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 .project-item h3, .project-item p{
     font-weight: large;
@@ -124,6 +167,7 @@ div .project-item{
     color: black;
 
 }
+
 
 footer{
     background-color: #069c6d;
